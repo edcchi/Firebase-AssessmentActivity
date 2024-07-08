@@ -52,6 +52,12 @@ export default function Home() {
             onClick={() => handleDelete(article.id)}
             src={DeleteIcon} alt="delete icon" 
           />
+          
+          <Link to={`/edit/${article.id}`}>
+              <button>Edit</button>
+            </Link>
+
+
         </div>
       ))}
     </div>

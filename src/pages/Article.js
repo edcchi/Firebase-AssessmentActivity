@@ -19,13 +19,6 @@ export default function Article() {
       })
 
   },[])  
-  
-
-  // if (!article) {
-  //   setTimeout(() => {
-  //     navigate('/')
-  //   }, 2000)
-  // }
 
   return (
     <div>
